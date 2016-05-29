@@ -1,0 +1,26 @@
+program KiemTraKytu;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes
+  { you can add units after this };
+
+var key: Char;
+begin
+  Write('Vui long nhap 1 ky tu bat ky tu ban phim: ');
+  ReadLn(key);
+
+  case key of
+       'a', 'q', 'w', 'r', 't', 'y', 'u', 'i', 'o', 'p': WriteLn('Ban da nhap ky tu o hang thu nhat');
+       'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l': WriteLn('Ban da nhap ky tu o hang thu 2');
+       'z', 'x', 'c', 'v', 'b', 'n', 'm': WriteLn('Ban da nhap ky tu o hang thu 3');
+  else
+      WriteLn('Ban nhap vao ky tu khong phai la ky tu chu cai, vui long nhap lai');
+  end;
+  ReadLn;
+end.
+

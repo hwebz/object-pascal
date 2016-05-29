@@ -1,0 +1,19 @@
+program ChuoiKyTu;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes
+  { you can add units after this };
+var HoTen: string;
+begin
+  Write('Nhap ho ten day du cua ban: ');
+  ReadLn(HoTen);
+
+  WriteLn('Chao ban, ', HoTen);
+  ReadLn;
+end.
+

@@ -1,0 +1,37 @@
+program KieuDuLieu;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes
+  { you can add units after this };
+var a: Integer;
+var b: Byte;
+var c: Char;
+var d: Boolean;
+var e: Single;
+var f: Double;
+var str: string;
+var p: PChar;
+begin
+   a:= 245;
+   b:= 14;
+   c:= 'v';
+   d:= True; {False}
+   e:= 15.45;
+   f:= 25.65;
+   str:= 'Chao mung ban den voi khoa hoc Object Pascal';
+   p:= 'Chao mung cac ban den voi khoa hoc Object Pascal 2';
+
+   if d = False then
+      WriteLn('Dung roi');
+
+   Write(a * e + f);
+   WriteLn(str);
+
+   ReadLn;
+end.
+

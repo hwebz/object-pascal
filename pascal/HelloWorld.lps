@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="HelloWorld.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="12"/>
+        <CursorPos X="40" Y="30"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Column="15"/>
+      </Position1>
+      <Position2>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Line="3" Column="11"/>
+      </Position2>
+      <Position3>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Column="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Line="15" Column="23"/>
+      </Position4>
+      <Position5>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Line="17" Column="15" TopLine="4"/>
+      </Position5>
+      <Position6>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Line="30" Column="40" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Line="17" Column="23" TopLine="11"/>
+      </Position7>
+      <Position8>
+        <Filename Value="HelloWorld.lpr"/>
+        <Caret Line="32" Column="31" TopLine="14"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
